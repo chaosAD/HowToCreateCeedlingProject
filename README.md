@@ -41,7 +41,7 @@ git status
 ```
 This will list all files in the staging are in green color. Make sure `.gitignore` and `build/Readme.txt` is in the list. Finally, type:
 ```
-git commit -m "Create the <project_name> project"
+git commit -m "Created the <project_name> project"
 ```
 
 How to Create a New Module in Your Project
