@@ -11,6 +11,11 @@ Replace the `<project_name>` with the your project name of choice. Then enter in
 ```
 cd <project_name>
 ```
+Fix the `project.yml` file to properly build executable file appropriate for Windows (Ceedling was build for Unix systems). Open the file and change `out` to `exe`
+```
+:extension:
+  :executable: .exe
+```
 Create `.gitignore` to ignore `build` folder that will contains a lot of unnecessary artifacts
 ```
 cat > .gitignore << EOF
