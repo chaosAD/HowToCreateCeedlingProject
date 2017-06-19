@@ -1,4 +1,4 @@
-# Tutorial for Test-Driven Development course
+# Tutorial for Test-Driven Development Course
 
 How To Create a new Ceedling Project
 ------------------------------------
@@ -18,7 +18,7 @@ build/*
 !build/Readme.txt
 EOF
 ```
-Create a dummy `Readme.txt` file to avoid `Git` from totally remove the `build` folder: 
+Create a dummy `Readme.txt` file to avoid `Git` from totally removing the `build` folder: 
 ```
 echo "Do not remove me!" > build/Readme.txt
 ```
