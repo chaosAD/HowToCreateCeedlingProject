@@ -13,7 +13,10 @@ cd <project_name>
 ```
 Create `.gitignore` to ignore `build` folder that will contains a lot of unnecessary artifacts
 ```
-echo "build/*" > .gitignore
+cat > .gitignore << EOF
+build/*
+!build/Readme.txt
+EOF
 ```
 Create a dummy `Readme.txt` file to avoid `Git` from totally remove the `build` folder: 
 ```
