@@ -27,6 +27,10 @@ Create a dummy `Readme.txt` file to avoid `Git` from totally removing the `build
 ```
 echo "Do not remove me!" > build/Readme.txt
 ```
+Initialize the folder to be watched by Git:
+```
+git init
+```
 Then add all new files to the Git staging area:
 ```
 git add --all
