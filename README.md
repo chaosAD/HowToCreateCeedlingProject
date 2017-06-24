@@ -23,9 +23,10 @@ build/*
 !build/Readme.txt
 EOF
 ```
-Create a dummy `Readme.txt` file to avoid `Git` from totally removing the `build` folder: 
+Create a dummy `Readme.txt` file to avoid `Git` from totally removing the `build` and `test/support` folders: 
 ```
 echo "Do not remove me!" > build/Readme.txt
+cp build/Readme.txt test/support 
 ```
 Initialize the folder to be watched by Git:
 ```
