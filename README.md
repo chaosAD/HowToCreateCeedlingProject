@@ -45,6 +45,17 @@ This will list all files in the staging are in green color. Make sure `.gitignor
 git commit -m "Created the <project_name> project"
 ```
 
+How to Enable Camel/Bumpy Casing
+--------------------------------
+Open the `project.yml` file with an editor of your choice. They place the following commands after `:environment:`:
+```
+:environment:
+
+:module_generator:
+  :naming: bumpy
+```
+
+
 How to Create a New Module in Your Project
 ------------------------------------------
 If you need to know what rake commands that are available, type:
