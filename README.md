@@ -60,11 +60,11 @@ How to Create a New Module in Your Project
 ------------------------------------------
 If you need to know what rake commands that are available, type:
 ```
-rake -T
+ceedling help
 ```
 To create a new module for your project, type:
 ```
-rake module:create[<module_name>]
+ceedling module:create[<module_name>]
 ```
 Replace the `<module_name>` with the module name of your choice. This will create the 3 following files: 
 ```
