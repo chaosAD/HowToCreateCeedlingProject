@@ -47,6 +47,7 @@ git commit -m "Created the <project_name> project"
 
 How to Enable Camel/Bumpy Casing
 --------------------------------
+(No more releveant for version 0.28.xx)
 Open the `project.yml` file with an editor of your choice. They place the following commands after `:environment:`:
 ```
 :environment:
